@@ -67,7 +67,7 @@ yosys -p "synth_ice40 -top switches_to_leds -json switches_to_leds.json" switche
 #### Output
 <details>
 <summary>see output</summary>
-```
+<code>
  /----------------------------------------------------------------------------\
  |  yosys -- Yosys Open SYnthesis Suite                                       |
  |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
@@ -889,7 +889,7 @@ Found and reported 0 problems.
 End of script. Logfile hash: 2d5a0d73bf, CPU: user 0.55s system 0.02s, MEM: 25.08 MB peak
 Yosys 0.61+112 (git sha1 ac427a79b, clang++ 18.1.3 -fPIC -O3)
 Time spent: 80% 20x read_verilog (0 sec), 4% 1x abc9_exe (0 sec), ...
-```
+</code>
 </details>
 ### Place and Route
 #### Command
@@ -900,7 +900,7 @@ nextpnr-ice40 --hx1k --json switches_to_leds.json --pcf ../common/goboard.pcf --
 <details>
 <summary>see output</summary>
 Note: I have a warning from an extra constraint defined in my pcf that isn't used in this design.
-```
+<code>
 Info: constrained 'o_LED_1' to bel 'X13/Y6/io1'
 Info: constrained 'o_LED_2' to bel 'X13/Y7/io0'
 Info: constrained 'o_LED_3' to bel 'X13/Y7/io1'
@@ -980,7 +980,7 @@ Info: No Fmax available; no interior timing paths found in design.
 1 warning, 0 errors
 
 Info: Program finished normally.
-```
+</code>
 </details>
 ### Pack
 #### Command
@@ -999,7 +999,7 @@ sudo iceprog switches_to_leds.bin
 #### Output
 <details>
 <summary>see output</summary>
-```
+<code>
 init..
 cdone: high
 reset..
@@ -1013,7 +1013,7 @@ reading..
 VERIFY OK             
 cdone: high
 Bye.
-```
+</code>
 </details>
 
 ## Try it out!
