@@ -18,3 +18,5 @@ I'll be working through the book chapter by chapter using the Nandland Go Board 
 - Chapter 1 - nothing to add
 - [Chapter 2 - Environment Setup](ch2-environment-setup.md)
 - [Chapter 3 - Boolean Algebra](ch3-boolean-algebra.md)
+- [Chapter 4 - Saving State](ch4-flip-flop.md)
+- [Chapter 5 - Simulation](ch5-simulation.md)
