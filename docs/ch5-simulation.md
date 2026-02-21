@@ -55,13 +55,13 @@ gtkwave dump.vcd
 ```
 
 You should see a screen like below.
-(img/gtkwave_blank.png)
+![gtkwave blank](img/gtkwave_blank.png)
 
 Using $dumpvars in our testbench saved off all our signals for us which we can see in 
-(img/gtkwave_signal_list.png)
+![gtkwave signal list](img/gtkwave_signal_list.png)
 
 Now we want to add the signals we care about.
-(img/gtkwave_graph.png)
+![gtkwave graph](img/gtkwave_graph.png)
 
 ## Now to Debouncing
 ...
