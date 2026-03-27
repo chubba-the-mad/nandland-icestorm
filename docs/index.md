@@ -20,3 +20,4 @@ I'll be working through the book chapter by chapter using the Nandland Go Board 
 - [Chapter 3 - Boolean Algebra](ch3-boolean-algebra.md)
 - [Chapter 4 - Saving State](ch4-flip-flop.md)
 - [Chapter 5 - Simulation](ch5-simulation.md)
+- [Chapter 6 - Common Modules](ch6-common-modules.md)
