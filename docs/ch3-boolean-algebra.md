@@ -121,6 +121,7 @@ sudo iceprog ch3_top.bin
 ```
 ### Test
 Now run through that truth table in table 3-8 and you should observe the following results.
+
 |SW1|SW2|SW3|D1 |
 |---|---|---|---|
 | 0 | 0 | 0 | 0 |
@@ -131,4 +132,5 @@ Now run through that truth table in table 3-8 and you should observe the followi
 | 1 | 0 | 1 | 1 |
 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 1 | 1 |
+
 did you match? good job.
